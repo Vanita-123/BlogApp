@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function SignUp() {
   return (
@@ -53,8 +54,8 @@ function SignUp() {
         />
       </div>
       <p className="text-xm">
-        Do not Have an Account ?
-        <button className="text-blue-600 m-1 cursor-pointer">SignIn</button>
+        Do Have an Account ?
+        <Link to ="/" className="text-blue-600 m-1 cursor-pointer">SignIn</Link>
       </p>
     </div>
   </div>
